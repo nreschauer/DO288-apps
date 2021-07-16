@@ -15,7 +15,7 @@ pipeline {
         DEV_PROJECT = "gtnwmd-books-dev"
         STAGE_PROJECT = "gtnwmd-books-stage"
         APP_GIT_URL = "https://github.com/nreschauer/DO288-apps"
-        NEXUS_SERVER = "http://${RHT_OCP4_NEXUS_SERVER}/repository/nodejs"
+        NEXUS_SERVER = "http://nexus-common.apps.eu45.prod.nextcle.com/repository/nodejs"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
